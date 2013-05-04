@@ -10,8 +10,77 @@
     tools:context=".Results2" >
 
     <TextView
+        android:id="@+id/textViewResults"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Result" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="@string/Result"
+        android:textColor="@color/coco"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/AdmitionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewResults"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:text="@string/Admition" />
+
+    <Button
+        android:id="@+id/CompressionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AdmitionButton"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:text="@string/Compression" />
+
+    <Button
+        android:id="@+id/Explotion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/CompressionButton"
+        android:clickable="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Explotion" />
+    
+    <Button
+        android:id="@+id/Expantion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Explotion"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:text="@string/Expantion" />
+
+    <Button
+        android:id="@+id/Exaustion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Expantion"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:text="@string/Exaustion" />
+    
+   <!--  <Button
+        android:id="@+id/Expultion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Exaustion"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:text="@string/Expultion" />
+    -->
+    <Button
+        android:id="@+id/Work"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:text="@string/Work" />
 
 </RelativeLayout>

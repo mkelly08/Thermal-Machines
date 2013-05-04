@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <string name="Version">1.0</string>
     <string name="app_name">Thermal Machines</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_results">Results</string>
+    <string name="title_activity_proces">ProcesActivity</string>
+    <string name="title_activity_work">WorkActivity</string>
+    <string name="UIA1">Universidad</string>
+    <string name="UIA2">Iberoamericana</string>
+    <string name="Developer">Developers:</string>
+    <string name="MainDeveloper">Miguel Angel Kelly Delgado</string>
+    <string name="SecondDeveloper">Vidal Chavez Padilla</string>
+    <string name="LASGRACIAS1">Thanks for the support</string>
+    <string name="LASGRACIAS2">:-)</string>
 
     <color name="coco">#C0C0C0</color>
 
-    <string name="title_activity_results">Results</string>
+    <string name="space"></string>
     <string name="Bore">Bore</string>
-    <string name="Stroke">Stroke</string>
     <string name="Rc">Rc (Vmax/Vmin)</string>
-    <string name="N">N(rpn)</string>
+    <string name="N">N(rpm)</string>
     <string name="Air">Air</string>
     <string name="Pa">Pa</string>
     <string name="Ta">Ta</string>
@@ -20,5 +30,24 @@
     <string name="Calculate">Calculate</string>
     <string name="OttoName">Otto 4</string>
     <string name="title_activity_results2">Results2</string>
+    <string name="Stroke">Stroke</string>
+    <string name="Admition">Admition</string>
+    <string name="Compression">Compression</string>
+    <string name="Explotion">Explotion</string>
+    <string name="Expantion">Expantion</string>
+    <string name="Exaustion">Exaustion</string>
+    <string name="Expultion">Expultion</string>
+    <string name="Work">Work</string>
+    <string name="Temp">Temperature</string>
+    <string name="Pres">Presion</string>
+    <string name="Vol">Volume</string>
+    <string name="Heat">Heat</string>
+    <string name="Qutil">Qutil</string>
+    <string name="Qent">Qent</string>
+    <string name="Qout">Qout</string>
+    <string name="Eff">Eff %</string>
+    <string name="Power">Power</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_intro">IntroActivity</string>
 
 </resources>

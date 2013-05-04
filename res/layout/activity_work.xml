@@ -1,0 +1,230 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrounds_125"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".WorkActivity" >
+
+    <TextView
+        android:id="@+id/TextWorkResults"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Result"
+        android:textColor="@color/coco"
+        android:textSize="22sp" />
+    
+    <View
+        android:id="@+id/Separator"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/TextWorkResults"
+        android:background="@android:color/darker_gray" />
+    
+    <TextView
+        android:id="@+id/TextQutil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/Separator"
+        android:gravity="fill_vertical"
+        android:text="@string/Qutil"
+        android:textColor="@color/coco"
+        android:textSize="20sp" />
+    
+    <TableRow 
+        android:id="@+id/TableRawQutil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/TextQutil"
+        android:background="@color/coco"
+        android:orientation="horizontal">
+              
+        <TextView
+            android:id="@+id/ResTempQutil"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:text="@string/space"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+    </TableRow>
+    
+    <View
+        android:id="@+id/Separator1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/TableRawQutil"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/darker_gray" />
+    
+    <TextView
+        android:id="@+id/TextQent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/Separator1"
+        android:gravity="fill_vertical"
+        android:text="@string/Qent"
+        android:textColor="@color/coco"
+        android:textSize="20sp" />
+    
+    <TableRow 
+        android:id="@+id/TableRawQent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/TextQent"
+        android:background="@color/coco"
+        android:orientation="horizontal">
+              
+        <TextView
+            android:id="@+id/ResTempQent"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:text="@string/space"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+    </TableRow>
+
+    <View
+        android:id="@+id/Separator2"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/TableRawQent"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/darker_gray" />
+    
+    <TextView
+        android:id="@+id/TextQout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/Separator2"
+        android:gravity="fill_vertical"
+        android:text="@string/Qout"
+        android:textColor="@color/coco"
+        android:textSize="20sp" />
+    
+    <TableRow 
+        android:id="@+id/TableRawQout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/TextQout"
+        android:background="@color/coco"
+        android:orientation="horizontal">
+              
+        <TextView
+            android:id="@+id/ResTempQout"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:text="@string/space"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+    </TableRow>
+    
+    <View
+        android:id="@+id/Separator3"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/TableRawQout"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/darker_gray" />
+    
+    <TextView
+        android:id="@+id/TextN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/Separator3"
+        android:gravity="fill_vertical"
+        android:text="@string/Eff"
+        android:textColor="@color/coco"
+        android:textSize="20sp" />
+    
+    <TableRow 
+        android:id="@+id/TableRawN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/TextN"
+        android:background="@color/coco"
+        android:orientation="horizontal">
+              
+        <TextView
+            android:id="@+id/ResTempN"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:text="@string/space"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+    </TableRow>
+    
+    <View
+        android:id="@+id/Separator4"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/TableRawN"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/darker_gray" />
+    
+    <TextView
+        android:id="@+id/TextPower"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/Separator4"
+        android:gravity="fill_vertical"
+        android:text="@string/Power"
+        android:textColor="@color/coco"
+        android:textSize="20sp" />
+    
+    <TableRow 
+        android:id="@+id/TableRawPower"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/TextPower"
+        android:background="@color/coco"
+        android:orientation="horizontal">
+              
+        <TextView
+            android:id="@+id/ResTempPower"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:text="@string/space"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+    </TableRow>
+    
+    <View
+       	android:id="@+id/Separator5"
+       	android:layout_width="fill_parent"
+       	android:layout_height="1dp"
+        android:layout_below="@+id/TableRawPower"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/darker_gray" />
+        
+    
+</RelativeLayout>

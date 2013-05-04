@@ -1,0 +1,190 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrounds_125"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ProcesActivity" >
+
+    <TextView
+        android:id="@+id/TextResults"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Result"
+        android:textColor="@color/coco"
+        android:textSize="22sp" />
+    
+    <View
+        android:id="@+id/Separator"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/TextResults"
+        android:background="@android:color/darker_gray" />
+    
+    <TextView
+        android:id="@+id/TextTemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/Separator"
+        android:gravity="fill_vertical"
+        android:text="@string/Temp"
+        android:textColor="@color/coco"
+        android:textSize="20sp" />
+    
+    <TableRow 
+        android:id="@+id/TableRawTemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/TextTemp"
+        android:background="@color/coco"
+        android:orientation="horizontal">
+              
+        <TextView
+            android:id="@+id/ResTempText"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:text="@string/space"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+    </TableRow>
+    
+    <View
+        android:id="@+id/Separator1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/TableRawTemp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/darker_gray" />
+    
+    <TextView
+        android:id="@+id/TextPress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/Separator1"
+        android:gravity="fill_vertical"
+        android:text="@string/Pres"
+        android:textColor="@color/coco"
+        android:textSize="20sp" />
+    
+    <TableRow 
+        android:id="@+id/TableRawPres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/TextPress"
+        android:background="@color/coco"
+        android:orientation="horizontal">
+              
+        <TextView
+            android:id="@+id/ResTempPres"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:text="@string/space"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+    </TableRow>
+
+    <View
+        android:id="@+id/Separator2"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/TableRawPres"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/darker_gray" />
+    
+    <TextView
+        android:id="@+id/TextVol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/Separator2"
+        android:gravity="fill_vertical"
+        android:text="@string/Vol"
+        android:textColor="@color/coco"
+        android:textSize="20sp" />
+    
+    <TableRow 
+        android:id="@+id/TableRawVol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/TextVol"
+        android:background="@color/coco"
+        android:orientation="horizontal">
+              
+        <TextView
+            android:id="@+id/ResTempVol"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:text="@string/space"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+    </TableRow>
+    
+    <View
+        android:id="@+id/Separator3"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/TableRawVol"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/darker_gray" />
+    
+    <TextView
+        android:id="@+id/TextHeat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/Separator3"
+        android:gravity="fill_vertical"
+        android:text="@string/Heat"
+        android:textColor="@color/coco"
+        android:textSize="20sp" />
+    
+    <TableRow 
+        android:id="@+id/TableRawHeat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/TextHeat"
+        android:background="@color/coco"
+        android:orientation="horizontal">
+              
+        <TextView
+            android:id="@+id/ResTempHeat"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:text="@string/space"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+    </TableRow>
+    
+    <View
+        android:id="@+id/Separator4"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/TableRawHeat"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/darker_gray" />
+    
+</RelativeLayout>

@@ -16,16 +16,31 @@
         <activity
             android:name="uia.GIDA.thermalmachines.MainActivityOtto"
             android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name="uia.GIDA.thermalmachines.Results2"
             android:label="@string/title_activity_results2" >
         </activity>
-    </application>
+        <activity
+            android:name="uia.GIDA.thermalmachines.ProcesActivity"
+            android:label="@string/title_activity_proces" >
+        </activity>
+        <activity
+            android:name="uia.GIDA.thermalmachines.WorkActivity"
+            android:label="@string/title_activity_work" >
+        </activity>
+        <activity
+            android:name="uia.GIDA.thermalmachines.AboutActivity"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity 
+            android:name="uia.GIDA.thermalmachines.IntroActivity"
+            android:label="@string/title_activity_intro">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>    </application>
 
 </manifest>

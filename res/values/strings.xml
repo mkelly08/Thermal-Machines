@@ -49,5 +49,12 @@
     <string name="Power">Power</string>
     <string name="title_activity_about">AboutActivity</string>
     <string name="title_activity_intro">IntroActivity</string>
+    
+    <string name="titleAdmition">Admition Results</string>
+    <string name="titleCompression">Compression Results</string>
+    <string name="titleExplotion">Explotion Results</string>
+    <string name="titleExpantion">Expantion Results</string>
+    <string name="titleExaustion">Exaustion Results</string>
+    <string name="titelWork">Work Resutls</string>
 
 </resources>

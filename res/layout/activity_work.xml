@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="@string/Result"
+        android:text="@string/titelWork"
         android:textColor="@color/coco"
         android:textSize="22sp" />
     

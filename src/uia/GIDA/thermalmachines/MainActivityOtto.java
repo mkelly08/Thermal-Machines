@@ -3,7 +3,10 @@ package uia.GIDA.thermalmachines;
 import uia.GIDA.thermalmachines.R.id;
 import android.os.Bundle;
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -61,8 +64,23 @@ public class MainActivityOtto extends Activity {
 		@Override
 		public void onClick(View v) {
 			Intent calculate =new Intent(MainActivityOtto.this,Results2.class);
-			calculate.putExtra("otto",this.otto);
-			MainActivityOtto.this.startActivity(calculate);
+			//Log.e("prueba",this.boreText.getEditableText().toString());
+			try{
+				this.otto.setBore(Double.parseDouble(this.boreText.getEditableText().toString()));
+				this.otto.setStroke(Double.parseDouble(this.strokeText.getEditableText().toString()));
+				this.otto.setRc(Double.parseDouble(this.rc.getEditableText().toString()));
+				this.otto.setN(Double.parseDouble(this.n.getEditableText().toString()));
+				this.otto.setPa(Double.parseDouble(this.pa.getEditableText().toString()));
+				this.otto.setTa(Double.parseDouble(this.ta.getEditableText().toString()));
+				calculate.putExtra("otto",this.otto);
+				MainActivityOtto.this.startActivity(calculate);
+			}catch(NumberFormatException e){
+				AlertDialog ad = new AlertDialog.Builder(MainActivityOtto.this).create();  
+				ad.setMessage("Put some numbers in there");   
+				ad.show(); 
+			}catch(Exception e){
+				Log.wtf("MainOttoWTF", e);
+			}
 		}
 		
 	}

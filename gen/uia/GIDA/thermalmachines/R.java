@@ -153,6 +153,12 @@ public final class R {
         public static final int app_name=0x7f050001;
         public static final int hello_world=0x7f050003;
         public static final int space=0x7f05000e;
+        public static final int titelWork=0x7f050032;
+        public static final int titleAdmition=0x7f05002d;
+        public static final int titleCompression=0x7f05002e;
+        public static final int titleExaustion=0x7f050031;
+        public static final int titleExpantion=0x7f050030;
+        public static final int titleExplotion=0x7f05002f;
         public static final int title_activity_about=0x7f05002b;
         public static final int title_activity_intro=0x7f05002c;
         public static final int title_activity_proces=0x7f050005;

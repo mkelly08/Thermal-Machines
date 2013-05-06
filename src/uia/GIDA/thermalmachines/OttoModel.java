@@ -2,7 +2,6 @@ package uia.GIDA.thermalmachines;
 
 import java.io.Serializable;
 
-import android.util.Log;
 
 
 public class OttoModel implements Serializable{
@@ -104,7 +103,6 @@ public class OttoModel implements Serializable{
 		cc=this.mass/(this.airR);
 		this.heat=cc*this.pci;//J/Kg K
 		this.totalHeat+=this.heat;
-		Log.e("mass",""+this.mass);
 		this.temp=((this.heat/CALTOJ)/(this.mass*this.Cv))+temp3;
 		this.pres=(this.temp/temp3)*this.pres;
 	}

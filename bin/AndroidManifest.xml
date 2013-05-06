@@ -7,40 +7,59 @@
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="17" />
-
+   
+	<compatible-screens>
+    	<screen android:screenSize="normal"
+            android:screenDensity="hdpi" />
+    	<screen android:screenSize="large"
+            android:screenDensity="hdpi" />
+	</compatible-screens>
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+	
         <activity
             android:name="uia.GIDA.thermalmachines.MainActivityOtto"
-            android:label="@string/app_name" >
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name="uia.GIDA.thermalmachines.Results2"
-            android:label="@string/title_activity_results2" >
+            android:label="@string/title_activity_results2" 
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name="uia.GIDA.thermalmachines.ProcesActivity"
-            android:label="@string/title_activity_proces" >
+            android:label="@string/title_activity_proces" 
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name="uia.GIDA.thermalmachines.WorkActivity"
-            android:label="@string/title_activity_work" >
+            android:label="@string/title_activity_work" 
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name="uia.GIDA.thermalmachines.AboutActivity"
-            android:label="@string/title_activity_about" >
+            android:label="@string/title_activity_about" 
+            android:screenOrientation="portrait">
         </activity>
-        <activity 
+        <activity
             android:name="uia.GIDA.thermalmachines.IntroActivity"
-            android:label="@string/title_activity_intro">
+            android:label="@string/title_activity_intro" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="uia.GIDA.thermalmachines.ThermalMachines"
+            android:label="@string/title_activity_thermal_machines" 
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>    </application>
+        </activity>
+    </application>
 
 </manifest>
